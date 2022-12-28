@@ -1,0 +1,22 @@
+{
+  "name": "xirelogy/magpie-qr-tools",
+  "description": "QR code related tools",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "JingXiang Tou",
+      "email": "jx@tou.st"
+    }
+  ],
+  "require": {
+    "ext-gd": "*",
+    "xirelogy/magpie-core": "^0.1",
+    "endroid/qr-code": "^4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "MagpieLib\\QrTools\\": "src"
+    }
+  }
+}
